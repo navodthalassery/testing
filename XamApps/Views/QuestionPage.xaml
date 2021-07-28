@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamApps.Views.QuestionPage"
+    xmlns:vm="clr-namespace:XamApps.ViewModels;assembly=XamApps"
+    Title="Questions"
+    xmlns:partial="clr-namespace:XamApps.Views.Partials"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true"
+    x:Name="MyPage">
+    <!--<ContentPage.BindingContext>  
+        <vm:QuestionPageViewModels/>  
+    </ContentPage.BindingContext>-->
+
+    <ContentPage.Content>
+        <Grid>
+
+        <StackLayout Orientation="Vertical"
+             VerticalOptions="Fill"
+             HorizontalOptions="StartAndExpand">
+             <ListView Margin="0,1" 
+                      ItemsSource="{Binding QuestionList}"  
+                      HasUnevenRows="True"  
+                      BackgroundColor="GhostWhite"
+                      VerticalOptions="FillAndExpand"
+                      x:Name="ListPage">
+                 <!--<ListView.Style>
+                 </ListView.Style>-->
+                <ListView.ItemTemplate>  
+                    <DataTemplate>  
+                        <ViewCell>  
+                            <StackLayout Padding="2">  
+                                <Label Text="{Binding Qdesc}"  
+                                       FontSize="50"  
+                                       TextColor="RosyBrown"/>  
+                                <StackLayout IsVisible="true"  
+                                             Orientation="Horizontal"  
+                                             Margin="0,0,1,0">  
+
+                                    <!--#region-->
+                                    <partial:AnswerPartial1
+                                        QuestionDataList="{Binding BindingContext.QuestionList, Source={x:Reference MyPage}}"
+                                        QId="{Binding QId}"
+                                        />
+                                    <!--#endregion-->
+                                </StackLayout>  
+                            </StackLayout>  
+                        </ViewCell>  
+                    </DataTemplate>  
+                </ListView.ItemTemplate>  
+            </ListView>
+
+
+            <StackLayout>
+        
+                <Entry Placeholder="Your Name" />
+
+                <Button Text="Next" Command="{Binding SaveCommand}"/>
+                <SearchBar />
+
+            </StackLayout>
+        </StackLayout>
+            </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

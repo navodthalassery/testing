@@ -1,0 +1,9 @@
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/XamApps.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/XamApps.deps.json
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/XamApps.pdb
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/Newtonsoft.Json.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/System.Numerics.Vectors.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/Xamarin.Essentials.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/Xamarin.Forms.Core.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/Xamarin.Forms.Platform.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/publish/Xamarin.Forms.Xaml.dll

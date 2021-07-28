@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamApps.Views.ViewAnswerPage"
+    xmlns:vm="clr-namespace:XamApps.ViewModels;assembly=XamApps"
+    Title="Answers">
+
+    <ContentPage.BindingContext>  
+        <vm:AnswerPageViewModel/>  
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+
+        <StackLayout Padding="2">  
+            <Label Text="Answers"  
+                    FontSize="50"  
+                    TextColor="RosyBrown"/>  
+            <StackLayout IsVisible="true"  
+                            Orientation="Horizontal"  
+                            Margin="0,0,1,0">  
+
+                <ListView Margin="0,1" 
+                        ItemsSource="{Binding AnswersSelected}"  
+                        HasUnevenRows="True"  
+                        BackgroundColor="FloralWhite">  
+                <ListView.ItemTemplate>  
+                    <DataTemplate>  
+                        <ViewCell>  
+                            <StackLayout Padding="2">  
+                                <Label Text="{Binding Adesc}"  
+                                        FontSize="40"  
+                                        TextColor="SandyBrown"/>  
+                                <StackLayout IsVisible="true"  
+                                                Orientation="Horizontal"  
+                                                Margin="0,0,1,0">  
+
+
+
+                                </StackLayout>  
+                            </StackLayout>  
+                        </ViewCell>  
+                    </DataTemplate>  
+                </ListView.ItemTemplate>  
+            </ListView>
+
+            </StackLayout>  
+        </StackLayout>
+                            
+    </ContentPage.Content>
+
+</ContentPage>

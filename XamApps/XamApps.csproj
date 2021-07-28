@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Shiny" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.Core" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.Notifications" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.Locations" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.BluetoothLE" Version="2.1.0.2757" />
+    <PackageReference Include="ShinySwitch" Version="1.0.76" />
+    <PackageReference Include="Shiny.Sensors" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.Framework" Version="1.1.0.80" />
+    <PackageReference Include="Shiny.Beacons" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.Push" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.Logging.AppCenter" Version="2.1.0.2757" />
+    <PackageReference Include="Shiny.SpeechRecognition" Version="2.1.0.2757" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.2.0" />
+    <PackageReference Include="Xamarin.Forms.DebugRainbows" Version="1.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\" />
+    <Folder Include="Services\" />
+    <Folder Include="Datas\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Views\Partials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Datas\QuestionJSON.json" />
+    <None Remove="Shiny" />
+    <None Remove="Shiny.Core" />
+    <None Remove="Shiny.Notifications" />
+    <None Remove="Shiny.Locations" />
+    <None Remove="Shiny.BluetoothLE" />
+    <None Remove="ShinySwitch" />
+    <None Remove="Shiny.Sensors" />
+    <None Remove="Shiny.Framework" />
+    <None Remove="Shiny.Beacons" />
+    <None Remove="Shiny.Push" />
+    <None Remove="Shiny.Logging.AppCenter" />
+    <None Remove="Shiny.SpeechRecognition" />
+    <None Remove="Xamarin.CommunityToolkit" />
+    <None Remove="Xamarin.Forms.DebugRainbows" />
+    <None Remove="Views\Partials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Datas\QuestionJSON.json" />
+  </ItemGroup>
+</Project>

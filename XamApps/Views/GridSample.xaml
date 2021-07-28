@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamApps.Views.GridSample"
+    xmlns:rainbows="clr-namespace:Xamarin.Forms.DebugRainbows;assembly=Xamarin.Forms.DebugRainbows">
+    <ContentPage.Content>
+        <Grid rainbows:DebugRainbow.ShowColors="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="Sample" Grid.Row="0" VerticalTextAlignment="Center" TextColor="AntiqueWhite"/>
+            <Label Text="Sample1" Grid.Row="1" VerticalTextAlignment="Center" TextColor="AliceBlue"/>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{9227183A-205E-4AD3-B334-DD824E20CC00}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamApps.Android PreferredExecutionTarget="Android.pixel_2_lollipop_5_0_-_api_21" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamApps/Views/Partials/AnswerPartial1.xaml.cs">
+    <Files>
+      <File FileName="XamApps/Views/QuestionPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="XamApps/Views/QuestionPage.xaml" Line="40" Column="1" />
+      <File FileName="XamApps/ViewModels/QuestionPageViewModels.cs" Line="80" Column="35" />
+      <File FileName="XamApps/Views/Partials/AnswerPartial.cs" Line="37" Column="41" />
+      <File FileName="XamApps/Views/Partials/AnswerPartial1.xaml" Line="10" Column="27" />
+      <File FileName="XamApps/Views/Partials/AnswerPartial1.xaml.cs" Line="85" Column="1" />
+      <File FileName="XamApps/ViewModels/AnswerPageViewModel.cs" Line="12" Column="41" />
+      <File FileName="XamApps/Services/DataLists.cs" Line="75" Column="27" />
+      <File FileName="XamApps/Models/Answers.cs" Line="10" Column="41" />
+      <File FileName="XamApps/Models/Questions.cs" Line="18" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamApps" expanded="True">
+            <Node name="XamApps" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Partials" expanded="True">
+                  <Node name="AnswerPartial1.xaml" expanded="True">
+                    <Node name="AnswerPartial1.xaml.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="QuestionPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="XamApps.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.XamApps.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.87916882-3882-40B6-B688-9404F53641DD" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/navodpm/Projects/XamApp/XamApps/XamApps/ViewModels/AnswerPageViewModel.cs" relfile="XamApps/ViewModels/AnswerPageViewModel.cs" line="29" column="1" />
+      <Breakpoint file="/Users/navodpm/Projects/XamApp/XamApps/XamApps/ViewModels/ExpanderViewModel.cs" relfile="XamApps/ViewModels/ExpanderViewModel.cs" line="9" column="1" />
+      <Breakpoint file="/Users/navodpm/Projects/XamApp/XamApps/XamApps/ViewModels/ExpanderViewModel.cs" relfile="XamApps/ViewModels/ExpanderViewModel.cs" line="47" column="1" />
+      <Breakpoint file="/Users/navodpm/Projects/XamApp/XamApps/XamApps/Views/Partials/AnswerPartial.cs" relfile="XamApps/Views/Partials/AnswerPartial.cs" line="48" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

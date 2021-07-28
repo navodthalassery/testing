@@ -1,0 +1,6 @@
+is_global = true
+build_property.OutputType = Library
+build_property.TargetFrameworkIdentifier = .NETStandard
+build_property.RootNamespace = XamApps
+build_property.RootNamespace = XamApps
+build_property.ProjectDir = /Users/navodpm/Projects/XamApp/XamApps/XamApps/

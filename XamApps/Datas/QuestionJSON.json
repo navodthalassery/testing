@@ -1,0 +1,58 @@
+﻿{
+  "questionList": [
+    {
+      "qkey": "q1",
+      "qdesc": "value1",
+      "answers": [
+        {
+          "akey": "a1",
+          "adesc": "value11"
+        },
+        {
+          "akey": "a2",
+          "adesc": "value21"
+        },
+        {
+          "akey": "a3",
+          "adesc": "value31"
+        }
+      ]
+    },
+    {
+      "qkey": "q2",
+      "qdesc": "value2",
+      "answers": [
+        {
+          "akey": "a4",
+          "adesc": "value111"
+        },
+        {
+          "akey": "a5",
+          "adesc": "value211"
+        },
+        {
+          "akey": "a6",
+          "adesc": "value311"
+        }
+      ]
+    },
+    {
+      "qkey": "q3",
+      "qdesc": "value3",
+      "answers": [
+        {
+          "akey": "a7",
+          "adesc": "value1111"
+        },
+        {
+          "akey": "a8",
+          "adesc": "value2111"
+        },
+        {
+          "akey": "a9",
+          "adesc": "value3111"
+        }
+      ]
+    }
+  ]
+}

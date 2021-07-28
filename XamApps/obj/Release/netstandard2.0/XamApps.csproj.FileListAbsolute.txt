@@ -1,0 +1,17 @@
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/XamApps.deps.json
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/XamApps.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/ref/XamApps.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/bin/Release/netstandard2.0/XamApps.pdb
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.csproj.AssemblyReference.cache
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.GeneratedMSBuildEditorConfig.editorconfig
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/Views/QuestionPage.xaml.g.cs
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/Views/ViewAnswerPage.xaml.g.cs
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.AssemblyInfoInputs.cache
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.AssemblyInfo.cs
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.csproj.CoreCompileInputs.cache
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamlC.stamp
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/ref/XamApps.dll
+/Users/navodpm/Projects/XamApp/XamApps/XamApps/obj/Release/netstandard2.0/XamApps.pdb
